@@ -38,13 +38,27 @@
     #about-me li{
         padding:3px;
     }
+    .socials a{
+        text-decoration: none;
+        color:#FF8282;
+    }
+    .socials a:hover{
+        color:#00F0FF;
+    }
+    #copyright{
+        text-align:center;
+        line-spacing:1.75rem;
+        letter-spacing:0.075rem;
+        color:#FF8282;
+    }
+    
   </style>
 </head>
 <body>
   <section id="about-me">
     <h1>Hi, I'm <span id="name">Esther Or</span>.</h1>
-    <p>About Me:</p>
-    <p>Introvert. Overthinker. Minimalist. Cynic. Idealist. Stoic. Philomath. Paradox.</p>
+    <p style="font-weight:900;padding:30px 0 0;">About Me:</p>
+    <p style="font-style:italic;">Introvert. Overthinker. Minimalist. Cynic. Idealist. Stoic. Philomath. Paradox.</p>
     <p>I have a wide range of interests. Subjects I love include Mathematics, Computer Science (esp. Machine Learning), Psychology (esp. Cognitive Science) and Neuroscience.
 </p>
     <p>I enjoy...</p>
@@ -58,6 +72,12 @@
       <li>Questioning the way this world works</li>
       <li>Hanging out with friends</li>
     </ul>
+    <div id='social'>
+        <p>Instagram: <span class='socials'><a href="https://instagram.com/e57herr">e57herr</a></span></p>
+        <p>Discord: <span class='socials'><a href="discordapp.com/users/paradox#3852">paradox#3852</a></span></p>
+        <p>Github: <span class='socials'><a href="github.com/esther-cs">esther-cs</a></span></p>
+    </div>
   </section>
+  <p id='copyright'>&copy Esther Or. All rights reserved</p>
 </body>
 </html>
